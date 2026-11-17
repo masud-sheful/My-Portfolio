@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Masud Hossain | Personal Portfolio</title>
+
+    <meta name="description" content="Masud Hossain - Software Engineering Student and aspiring Software Developer.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js"
+      }
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">M<span>.</span></div>
+            <div class="loader-line">
+                <div class="loader-progress" id="loaderProgress"></div>
+            </div>
+            <p>CRAFTING EXPERIENCE</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#home" class="brand">MASUD<span>.</span></a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+        </nav>
+
+        <a href="#contact" class="nav-button">Let's Talk ↗</a>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+    </header>
+
+    <!-- Hero -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <canvas id="webgl"></canvas>
+
+            <div class="hero-content">
+
+                <div class="status">
+                    <span></span>
+                    SOFTWARE ENGINEERING STUDENT
+                </div>
+
+                <p class="eyebrow">HELLO, I'M MASUD HOSSAIN</p>
+
+                <h1>
+                    Design.<br>
+                    Develop.<br>
+                    <span>Discover.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Exploring the world of technology, creating digital
+                    experiences and building my journey as a future
+                    Software Engineer.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="button-primary">
+                        Explore My Work <span>↗</span>
+                    </a>
+
+                    <a href="#about" class="button-secondary">
+                        Discover More ↓
+                    </a>
+                </div>
+
+                <div class="hero-footer">
+                    <span>BASED IN DHAKA, BANGLADESH</span>
+                    <span>SCROLL TO EXPLORE ↓</span>
+                </div>
+
+            </div>
+
+            <div class="orb-label">
+                <span class="orb-dot"></span>
+                CREATIVITY IN MOTION
+            </div>
+
+        </section>
+
+        <!-- Intro -->
+        <section class="intro-section" id="about">
+
+            <p class="section-label reveal">01 — ABOUT ME</p>
+
+            <h2 class="big-statement reveal">
+                I believe great things<br>
+                start with <span>curiosity.</span>
+            </h2>
+
+            <div class="intro-bottom reveal">
+                <p>
+                    I'm Masud Hossain, a Software Engineering student at
+                    Daffodil International University. I love technology,
+                    programming and exploring creative ways to solve problems.
+                    My journey is just beginning, and I am always ready to learn.
+                </p>
+
+                <div class="mini-stat">
+                    <strong>01</strong>
+                    <span>CURIOUS MIND.<br>CONTINUOUS LEARNING.</span>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Education -->
+        <section class="education-section" id="education">
+
+            <p class="section-label reveal">02 — EDUCATION</p>
+
+            <h2 class="section-title reveal">
+                My academic<br><span>journey.</span>
+            </h2>
+
+            <div class="education-list">
+
+                <div class="education-item reveal">
+                    <span class="edu-number">01</span>
+                    <div>
+                        <p>UNDERGRADUATE</p>
+                        <h3>BSc in Software Engineering</h3>
+                        <span>Daffodil International University</span>
+                    </div>
+                    <strong>ONGOING</strong>
+                </div>
+
+                <div class="education-item reveal">
+                    <span class="edu-number">02</span>
+                    <div>
+                        <p>HIGHER SECONDARY CERTIFICATE</p>
+                        <h3>BCIC College</h3>
+                        <span>Science</span>
+                    </div>
+                    <strong>GPA 4.63</strong>
+                </div>
+
+                <div class="education-item reveal">
+                    <span class="edu-number">03</span>
+                    <div>
+                        <p>SECONDARY SCHOOL CERTIFICATE</p>
+                        <h3>Monipur Uchcha Vidyalaya & College</h3>
+                        <span>Science</span>
+                    </div>
+                    <strong>GPA 5.00</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Skills -->
+        <section class="skills-section" id="skills">
+
+            <p class="section-label reveal">03 — MY TOOLKIT</p>
+
+            <h2 class="section-title reveal">
+                Technology I'm<br><span>exploring.</span>
+            </h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card reveal">
+                    <span>01</span>
+                    <h3>C Programming</h3>
+                    <p>Programming fundamentals</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <span>02</span>
+                    <h3>Java</h3>
+                    <p>Object-oriented programming</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <span>03</span>
+                    <h3>HTML & CSS</h3>
+                    <p>Web structure and styling</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <span>04</span>
+                    <h3>JavaScript</h3>
+                    <p>Interactive web experiences</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <span>05</span>
+                    <h3>MySQL</h3>
+                    <p>Database management</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <span>06</span>
+                    <h3>Problem Solving</h3>
+                    <p>Logical thinking</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Projects -->
+        <section class="projects-section" id="projects">
+
+            <p class="section-label reveal">04 — SELECTED PROJECTS</p>
+
+            <h2 class="section-title reveal">
+                Ideas into<br><span>reality.</span>
+            </h2>
+
+            <div class="project-grid">
+
+                <article class="project-card reveal">
+                    <div class="project-visual visual-one">
+                        <div class="visual-shape">01</div>
+                        <span>DATABASE SYSTEM</span>
+                    </div>
+
+                    <div class="project-info">
+                        <p>ACADEMIC PROJECT / 01</p>
+                        <h3>Student Performance Analytics</h3>
+                        <span>MySQL · Database Management</span>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-visual visual-two">
+                        <div class="visual-shape">02</div>
+                        <span>WEB DEVELOPMENT</span>
+                    </div>
+
+                    <div class="project-info">
+                        <p>PERSONAL PROJECT / 02</p>
+                        <h3>Personal Portfolio Website</h3>
+                        <span>HTML · CSS · JavaScript</span>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Contact -->
+        <section class="contact-section" id="contact">
+
+            <p class="section-label reveal">05 — CONTACT</p>
+
+            <h2 class="reveal">
+                Let's make<br>
+                something <span>great.</span>
+            </h2>
+
+            <p class="contact-text reveal">
+                Have an idea, opportunity or just want to connect?
+                Feel free to reach out.
+            </p>
+
+            <a href="mailto:masudhossainsheful12@gmail.com"
+               class="contact-button reveal">
+                GET IN TOUCH ↗
+            </a>
+
+            <div class="social-links reveal">
+                <a href="https://github.com/masud-sheful" target="_blank">GITHUB ↗</a>
+
+                <a href="https://www.linkedin.com/in/masud-hossain-3349b243a/"
+                   target="_blank">LINKEDIN ↗</a>
+
+                <a href="mailto:masudhossainsheful12@gmail.com">EMAIL ↗</a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="#home" class="brand">MASUD<span>.</span></a>
+        <p>© 2026 MASUD HOSSAIN. ALL RIGHTS RESERVED.</p>
+        <a href="#home">BACK TO TOP ↑</a>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
